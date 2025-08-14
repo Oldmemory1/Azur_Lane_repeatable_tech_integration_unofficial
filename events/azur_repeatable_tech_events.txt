@@ -17,7 +17,7 @@ country_event = {
 	is_triggered_only = yes
 	hide_window = yes
 	trigger = {
-		azurlane_default_govement_trigger = yes
+		always = yes
 	}
 	immediate = {
 		country_event = {
@@ -30,7 +30,7 @@ country_event = {
 	id = azur_repeatable.10
 	title = azur_repeatable.10.name
 	desc = azur_repeatable.10.desc
-	picture = GFX_azurU09
+	#picture = GFX_azurU09
 	show_sound = event_laboratory_sound_02
 	is_triggered_only = yes
 
