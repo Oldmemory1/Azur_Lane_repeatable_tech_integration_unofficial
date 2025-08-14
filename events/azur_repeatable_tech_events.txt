@@ -17,7 +17,7 @@ country_event = {
 	is_triggered_only = yes
 	hide_window = yes
 	trigger = {
-		always = yes
+		is_ai = no
 	}
 	immediate = {
 		country_event = {
