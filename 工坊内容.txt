@@ -1,0 +1,57 @@
+[h1][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1617872589]碧蓝航线主题DLC[/url]循环科技拓展包。[/h1]
+整合了物理学，社会学，工程学的全部循环科技。
+让他们互相更加平衡，对修正做出了一些调整。
+[spoiler]让动能再次伟大！[/spoiler]
+
+AI仍然会使用原版科技，不影响AI正常的循环科技。
+
+如果你使用了碧蓝航线主题DLC中的政体，你可以在开局设定事件中开启终极循环整合！将会在合并所有可无限循环的科技，并配合原版游戏自带的自动科研功能，在后期实现完全解放双手，告别点科技！
+[url=https://sm.ms/image/nWQL6C8wKa4Xb53][img]https://i.loli.net/2021/01/08/nWQL6C8wKa4Xb53.png[/img][/url]
+[url=https://sm.ms/image/sq8t6I3LunoUBjZ][img]https://i.loli.net/2021/01/08/sq8t6I3LunoUBjZ.png[/img][/url]
+[b]物理学01[/b]—岗位生产的能量币+护盾值 可无限循环
+[b]物理学02[/b]—能量武器伤害+能量武器攻击速度 可无限循环
+[b]物理学03[/b]—空间站伤害+空间站船体值+舰载机伤害+舰载机攻击速度 可无限循环
+[b]物理学04[/b]—建筑速度+建筑花费 可循环5次
+[url=https://sm.ms/image/2QGE5bWHgctBlof][img]https://i.loli.net/2021/01/08/2QGE5bWHgctBlof.png[/img][/url]
+[b]社会学01[/b]—岗位生产的食物+领袖寿命 可无限循环
+[b]社会学02[/b]—国家管理上限+法令期限 可无限循环
+[b]社会学03[/b]—陆军生命值+陆军伤害 可无限循环
+[b]社会学04[/b]—恒星基地数量上限+海军容量 可无限循环
+[b]社会学05[/b]—舰队指挥上限 可循环5次
+[url=https://sm.ms/image/OxbXeUahTdk9Fvz][img]https://i.loli.net/2021/01/08/OxbXeUahTdk9Fvz.png[/img][/url]
+[b]工程学01[/b]—动能武器伤害+动能武器攻击速度+爆破武器伤害+爆破武器攻击速度 可无限循环
+[b]工程学02[/b]—岗位生产的矿物+船体值 可无限循环
+[b]工程学03[/b]—岗位生产的合金+装甲值 可无限循环
+[b]工程学04[/b]—巨构建造速度+舰船建造速度 可循环5次
+[h1]-----------------------------------------------------------------------[/h1]
+[h1]Language：简体中文，English[/h1]
+
+
+
+
+
+[h1][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1617872589Azur Lane Stellaris DLC[/url] repeatable technology integration pack[/h1]
+It integrates all the recycling technologies of physics, sociology and engineering.
+They were more balanced with each other and made some adjustments to the amendment.
+[spoiler]Make Kinetic Great Again![/spoiler]
+
+AI will still use the original technology, which does not affect the normal circulation technology of AI.
+[url=https://sm.ms/image/nWQL6C8wKa4Xb53][img]https://i.loli.net/2021/01/08/nWQL6C8wKa4Xb53.png[/img][/url]
+[url=https://sm.ms/image/sq8t6I3LunoUBjZ][img]https://i.loli.net/2021/01/08/sq8t6I3LunoUBjZ.png[/img][/url]
+[b]Physics01[/b]—planet jobs energy+ship shield 
+[b]Physics02[/b]—energy weapon damage+energy weapon fire rate
+[b]Physics03[/b]—military station damage+military station hull+strike craft weapon damage+strike craft weapon fire rate
+[b]Physics04[/b]—building build speed+building build cost
+[url=https://sm.ms/image/2QGE5bWHgctBlof][img]https://i.loli.net/2021/01/08/2QGE5bWHgctBlof.png[/img][/url]
+[b]Society01[/b]—planet jobs food+leader age
+[b]Society02[/b]—country admin cap+edict length
+[b]Society03[/b]—army damage+army health
+[b]Society04[/b]—naval cap+starbase capacity
+[b]Society05[/b]—command limit
+[url=https://sm.ms/image/OxbXeUahTdk9Fvz][img]https://i.loli.net/2021/01/08/OxbXeUahTdk9Fvz.png[/img][/url]
+[b]Engineering01[/b]—kinetic weapon damage+kinetic weapon fire rate+explosive weapon damage+explosive weapon fire rate
+[b]Engineering02[/b]—planet jobs minerals+ship hull
+[b]Engineering03[/b]—planet jobs alloys+ship armor
+[b]Engineering04[/b]—megastructure build speed+shipyard build speed
+[h1]-----------------------------------------------------------------------[/h1]
+[h1]Language：简体中文，English[/h1]

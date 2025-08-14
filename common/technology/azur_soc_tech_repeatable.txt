@@ -1,0 +1,255 @@
+
+@AZURrepeatableTechBaseCost = 1000000
+@AZURrepeatableTechLevelCost = 100000
+
+tech_azur_society_repeatable_01 = {
+	area = society
+	cost = @AZURrepeatableTechBaseCost
+	cost_per_level = @AZURrepeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { biology }
+	levels = -1
+	prerequisites = {"tech_gene_crops" "tech_vitality_boosters"}
+	weight = @repeatableTechWeight
+	
+	potential = {
+		OR = {
+			is_country_type = azur_crisis_2
+			AND = {
+				is_ai = no
+				NOT = {
+					has_country_flag = azur_repeatable_integration
+				}
+			}
+		}
+	}
+
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+	
+	modifier = {
+		planet_jobs_food_produces_mult = 0.5
+		leader_lifespan_add = 50
+	}
+}
+tech_azur_society_repeatable_02 = {
+	area = society
+	cost = @AZURrepeatableTechBaseCost
+	cost_per_level = @AZURrepeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { new_worlds }
+	levels = -1
+	prerequisites = {"tech_galactic_bureaucracy" "tech_doctrine_navy_size_4"}
+	weight = @repeatableTechWeight
+	
+	potential = {
+		OR = {
+			is_country_type = azur_crisis_2
+			AND = {
+				is_ai = no
+				NOT = {
+					has_country_flag = azur_repeatable_integration
+				}
+			}
+		}
+	}
+
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+	
+	modifier = {
+		country_unity_produces_mult = 1.00
+	}
+}
+tech_azur_society_repeatable_03 = {
+	area = society
+	cost = @AZURrepeatableTechBaseCost
+	cost_per_level = @AZURrepeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { military_theory }
+	levels = -1
+	prerequisites = {"tech_combat_training" "tech_combat_training"}
+	weight = @repeatableTechWeight
+	
+	potential = {
+		OR = {
+			is_country_type = azur_crisis_2
+			AND = {
+				is_ai = no
+				NOT = {
+					has_country_flag = azur_repeatable_integration
+				}
+			}
+		}
+	}
+
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+	
+	modifier = {
+		army_damage_mult = 1.0
+		army_health = 1.0
+	}
+}
+tech_azur_society_repeatable_04 = {
+	area = society
+	cost = @AZURrepeatableTechBaseCost
+	cost_per_level = @AZURrepeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { new_worlds }
+	levels = 5
+	prerequisites = { "tech_galactic_ambitions" }
+	weight = @repeatableTechWeight
+	
+	potential = {
+		OR = {
+			is_country_type = azur_crisis_2
+			AND = {
+				is_ai = no
+				NOT = {
+					has_country_flag = azur_repeatable_integration
+				}
+			}
+		}
+	}
+
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+	
+	modifier = {
+		country_starbase_capacity_add = 10
+		country_naval_cap_add = 200
+	}
+}
+tech_azur_society_repeatable_05 = {
+	area = society
+	cost = @AZURrepeatableTechBaseCost
+	cost_per_level = @AZURrepeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { military_theory }
+	levels = 5
+	prerequisites = {"tech_doctrine_fleet_size_5"}
+	weight = @repeatableTechWeight
+	
+	potential = {
+		OR = {
+			is_country_type = azur_crisis_2
+			is_ai = no
+		}
+	}
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+	
+	modifier = {
+		command_limit_add = 200
+	}
+}
+tech_azur_society_repeatable_X = {
+	area = society
+	cost = 3000000
+	cost_per_level = 300000
+	tier = @repeatableTechTier
+	category = { military_theory }
+	levels = -1
+	prerequisites = { "tech_gene_crops" "tech_vitality_boosters" "tech_galactic_bureaucracy" "tech_artificial_moral_codes" "tech_combat_training" "tech_doctrine_navy_size_4" "tech_galactic_ambitions" }
+	weight = @repeatableTechWeight
+	
+	potential = {
+		OR = {
+			is_country_type = azur_crisis_2
+			AND = {
+				is_ai = no
+				has_country_flag = azur_repeatable_integration
+			}
+		}
+	}
+
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+	
+	modifier = {
+		planet_jobs_food_produces_mult = 0.5
+		leader_lifespan_add = 50
+		country_unity_produces_mult = 1.00
+		army_damage_mult = 1.0
+		army_health = 1.0
+	}
+}

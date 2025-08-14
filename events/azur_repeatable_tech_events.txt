@@ -1,0 +1,51 @@
+namespace = azur_repeatable
+event = {
+	id = azur_repeatable.0
+	is_triggered_only = yes
+	hide_window = yes
+	trigger = {
+		NOT = {
+			has_global_flag = azurlane_repeatable_tech
+		}
+	}
+	immediate = {
+		set_global_flag = azurlane_repeatable_tech
+	}
+}
+country_event = {
+	id = azur_repeatable.1
+	is_triggered_only = yes
+	hide_window = yes
+	trigger = {
+		azurlane_default_govement_trigger = yes
+	}
+	immediate = {
+		country_event = {
+			id = azur_repeatable.10
+			days = 25
+		}
+	}
+}
+country_event = {
+	id = azur_repeatable.10
+	title = azur_repeatable.10.name
+	desc = azur_repeatable.10.desc
+	picture = GFX_azurU09
+	show_sound = event_laboratory_sound_02
+	is_triggered_only = yes
+
+	immediate = {
+
+	}
+
+	option = {
+		name = azur_repeatable.10.a
+
+	}
+	option = {
+		name = azur_repeatable.10.b
+		hidden_effect = {
+			set_country_flag = azur_repeatable_integration
+		}
+	}
+}

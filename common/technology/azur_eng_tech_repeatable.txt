@@ -1,0 +1,220 @@
+
+@AZURrepeatableTechBaseCost = 1000000
+@AZURrepeatableTechLevelCost = 100000
+
+tech_azur_engineering_repeatable_01 = {
+	area = engineering
+	cost = @AZURrepeatableTechBaseCost
+	cost_per_level = @AZURrepeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { propulsion }
+	levels = -1
+	prerequisites = {"tech_mass_drivers_3" "tech_missiles_3"}
+	weight = @repeatableTechWeight
+
+	potential = {
+		OR = {
+			is_country_type = azur_crisis_2
+			AND = {
+				is_ai = no
+				NOT = {
+					has_country_flag = azur_repeatable_integration
+				}
+			}
+		}
+	}
+
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+	
+	modifier = {
+		weapon_type_kinetic_weapon_damage_mult = 0.5
+		weapon_type_kinetic_weapon_fire_rate_mult = 0.5
+		weapon_type_explosive_weapon_damage_mult = 0.5
+		weapon_type_explosive_weapon_fire_rate_mult = 0.5
+	}
+}
+tech_azur_engineering_repeatable_02 = {
+	area = engineering
+	cost = @AZURrepeatableTechBaseCost
+	cost_per_level = @AZURrepeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { materials }
+	levels = -1
+	prerequisites = {"tech_mineral_purification_2" "tech_titans"}
+	weight = @repeatableTechWeight
+	
+	potential = {
+		OR = {
+			is_country_type = azur_crisis_2
+			AND = {
+				is_ai = no
+				NOT = {
+					has_country_flag = azur_repeatable_integration
+				}
+			}
+		}
+	}
+
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+	
+	modifier = {
+		planet_jobs_minerals_produces_mult = 0.5
+		ship_hull_mult = 0.5
+	}
+}
+tech_azur_engineering_repeatable_03 = {
+	area = engineering
+	cost = @AZURrepeatableTechBaseCost
+	cost_per_level = @AZURrepeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { industry }
+	levels = -1
+	prerequisites = {"tech_ship_armor_3" "tech_alloys_2"}
+	weight = @repeatableTechWeight
+	
+	potential = {
+		OR = {
+			is_country_type = azur_crisis_2
+			AND = {
+				is_ai = no
+				NOT = {
+					has_country_flag = azur_repeatable_integration
+				}
+			}
+		}
+	}
+
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+	
+	modifier = {
+		ship_armor_mult = 0.5
+		planet_jobs_alloys_produces_mult = 0.3
+	}
+}
+tech_azur_engineering_repeatable_04 = {
+	area = engineering
+	cost = @AZURrepeatableTechBaseCost
+	cost_per_level = @AZURrepeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { voidcraft }
+	levels = 5
+	prerequisites = {"tech_mega_engineering" "tech_juggernaut"}
+	weight = @repeatableTechWeight
+	
+	potential = {
+		OR = {
+			is_country_type = azur_crisis_2
+			is_ai = no
+		}
+	}
+
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+	
+	modifier = {
+		megastructure_build_speed_mult = 0.5
+		starbase_shipyard_build_speed_mult = 0.5
+	}
+}
+tech_azur_engineering_repeatable_X = {
+	area = engineering
+	cost = 3000000
+	cost_per_level = 300000
+	tier = @repeatableTechTier
+	category = { voidcraft }
+	levels = -1
+	prerequisites = { "tech_ship_armor_3" "tech_alloys_2" "tech_mineral_purification_2" "tech_titans" "tech_mass_drivers_3" "tech_missiles_3" }
+	weight = @repeatableTechWeight
+	
+	potential = {
+		OR = {
+			is_country_type = azur_crisis_2
+			AND = {
+				is_ai = no
+				has_country_flag = azur_repeatable_integration
+			}
+		}
+	}
+
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+	
+	modifier = {
+		weapon_type_kinetic_weapon_damage_mult = 0.5
+		weapon_type_kinetic_weapon_fire_rate_mult = 0.5
+		weapon_type_explosive_weapon_damage_mult = 0.5
+		weapon_type_explosive_weapon_fire_rate_mult = 0.5
+		planet_jobs_minerals_produces_mult = 0.5
+		ship_armor_mult = 0.5
+		ship_hull_mult = 0.5
+		planet_jobs_alloys_produces_mult = 0.3
+	}
+}
