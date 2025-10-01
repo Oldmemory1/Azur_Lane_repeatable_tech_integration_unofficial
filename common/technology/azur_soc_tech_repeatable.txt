@@ -136,7 +136,7 @@ tech_azur_society_repeatable_04 = {
 	cost_per_level = @AZURrepeatableTechLevelCost
 	tier = @repeatableTechTier
 	category = { new_worlds }
-	levels = 5
+	levels = -1
 	prerequisites = { "tech_galactic_ambitions" }
 	weight = @repeatableTechWeight
 	
@@ -169,7 +169,6 @@ tech_azur_society_repeatable_04 = {
 	}
 	
 	modifier = {
-		country_starbase_capacity_add = 10
 		country_naval_cap_add = 200
 	}
 }
@@ -206,7 +205,8 @@ tech_azur_society_repeatable_05 = {
 	}
 	
 	modifier = {
-		command_limit_add = 200
+		country_starbase_capacity_add = 1
+		command_limit_add = 20
 	}
 }
 tech_azur_society_repeatable_X = {
@@ -251,5 +251,6 @@ tech_azur_society_repeatable_X = {
 		country_unity_produces_mult = 1.00
 		army_damage_mult = 1.0
 		army_health = 1.0
+		country_naval_cap_add = 200
 	}
 }

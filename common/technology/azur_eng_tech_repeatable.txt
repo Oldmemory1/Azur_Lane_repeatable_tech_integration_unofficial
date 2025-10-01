@@ -87,7 +87,7 @@ tech_azur_engineering_repeatable_02 = {
 	
 	modifier = {
 		planet_jobs_minerals_produces_mult = 0.5
-		ship_hull_mult = 0.5
+		planet_jobs_alloys_produces_mult = 0.3
 	}
 }
 tech_azur_engineering_repeatable_03 = {
@@ -130,7 +130,7 @@ tech_azur_engineering_repeatable_03 = {
 	
 	modifier = {
 		ship_armor_mult = 0.5
-		planet_jobs_alloys_produces_mult = 0.3
+		ship_hull_mult = 0.5
 	}
 }
 tech_azur_engineering_repeatable_04 = {

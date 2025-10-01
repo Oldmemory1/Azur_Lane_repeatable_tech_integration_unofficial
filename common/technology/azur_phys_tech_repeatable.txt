@@ -42,7 +42,6 @@ tech_azur_physics_repeatable_01 = {
 	
 	modifier = {
 		planet_jobs_energy_produces_mult = 0.5
-		ship_shield_mult = 0.5
 	}
 }
 tech_azur_physics_repeatable_02 = {
@@ -85,6 +84,7 @@ tech_azur_physics_repeatable_02 = {
 	modifier = {
 		weapon_type_energy_weapon_fire_rate_mult = 0.5
 		weapon_type_energy_weapon_damage_mult = 0.5
+		ship_shield_mult = 0.5
 	}
 }
 tech_azur_physics_repeatable_03 = {
