@@ -16,7 +16,6 @@ tech_azur_society_repeatable_01 = {
 		OR = {
 			is_country_type = azur_crisis_2
 			AND = {
-				is_ai = no
 				NOT = {
 					has_country_flag = azur_repeatable_integration
 				}
@@ -30,7 +29,7 @@ tech_azur_society_repeatable_01 = {
 	}
 	
 	ai_weight = {
-		factor = 1.0
+		factor = 0
 	}
 	
 	weight_groups = {
@@ -59,7 +58,6 @@ tech_azur_society_repeatable_02 = {
 		OR = {
 			is_country_type = azur_crisis_2
 			AND = {
-				is_ai = no
 				NOT = {
 					has_country_flag = azur_repeatable_integration
 				}
@@ -73,7 +71,7 @@ tech_azur_society_repeatable_02 = {
 	}
 	
 	ai_weight = {
-		factor = 1.0
+		factor = 0
 	}
 	
 	weight_groups = {
@@ -101,7 +99,6 @@ tech_azur_society_repeatable_03 = {
 		OR = {
 			is_country_type = azur_crisis_2
 			AND = {
-				is_ai = no
 				NOT = {
 					has_country_flag = azur_repeatable_integration
 				}
@@ -115,7 +112,7 @@ tech_azur_society_repeatable_03 = {
 	}
 	
 	ai_weight = {
-		factor = 1.0
+		factor = 0
 	}
 	
 	weight_groups = {
@@ -144,7 +141,6 @@ tech_azur_society_repeatable_04 = {
 		OR = {
 			is_country_type = azur_crisis_2
 			AND = {
-				is_ai = no
 				NOT = {
 					has_country_flag = azur_repeatable_integration
 				}
@@ -158,7 +154,7 @@ tech_azur_society_repeatable_04 = {
 	}
 	
 	ai_weight = {
-		factor = 1.0
+		factor = 0
 	}
 	
 	weight_groups = {
@@ -185,7 +181,6 @@ tech_azur_society_repeatable_05 = {
 	potential = {
 		OR = {
 			is_country_type = azur_crisis_2
-			is_ai = no
 		}
 	}
 
@@ -194,7 +189,7 @@ tech_azur_society_repeatable_05 = {
 	}
 	
 	ai_weight = {
-		factor = 1.0
+		factor = 0
 	}
 	
 	weight_groups = {
@@ -223,7 +218,6 @@ tech_azur_society_repeatable_X = {
 		OR = {
 			is_country_type = azur_crisis_2
 			AND = {
-				is_ai = no
 				has_country_flag = azur_repeatable_integration
 			}
 		}
@@ -235,7 +229,7 @@ tech_azur_society_repeatable_X = {
 	}
 	
 	ai_weight = {
-		factor = 1.0
+		factor = 0
 	}
 	
 	weight_groups = {
